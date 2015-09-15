@@ -208,7 +208,7 @@ DWORD WINAPI ServiceHandlerEx(DWORD dwControl,
 
 void HibernateMachine(void)
 {
-    SetSuspendState(TRUE, TRUE, TRUE);
+    ExitWindowEx(EWX_FORCE, 0);
 }
 
 void ResetMonitoringState(__in size_t cMonitors, __in PHANDLE pMonitoringHandles, __in LONG volatile * pMonitorsCompleted)

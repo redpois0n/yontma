@@ -3,6 +3,10 @@ YoNTMA
 
 YoNTMA (You'll Never Take Me Alive!) is a tool designed to enhance the protection of data encryption on Windows laptops. A Macintosh version is available [here](https://github.com/iSECPartners/yontma-mac).
 
+## This fork does the following
+
+- Forces shutdown instead of hibernating
+
 How It Works
 ------------
 
